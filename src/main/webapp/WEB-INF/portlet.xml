@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd
+	http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+
+    <portlet>
+        <description>Import de la librairie JavaScript Dojo</description>
+        <portlet-name>DojoPortlet</portlet-name>
+        <display-name xml:lang="FR">Importation de Dojo</display-name>
+        <portlet-class>com.liferay.util.bridges.mvc.MVCPortlet</portlet-class>
+        <init-param>
+            <name>view-jsp</name>
+            <value>/view.jsp</value>
+        </init-param>
+        <expiration-cache>0</expiration-cache>
+        <supports>
+            <mime-type>text/html</mime-type>
+        </supports>
+        <portlet-info>
+            <title>Dojo Portlet</title>
+            <short-title>Dojo Portlet</short-title>
+            <keywords>Dojo</keywords>
+        </portlet-info>
+    </portlet>
+</portlet-app>
