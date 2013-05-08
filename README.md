@@ -1,4 +1,4 @@
 dojo-liferay-portlet
 ====================
 
-The best way to integrate Dojo in a scalable way
+The best way to integrate Dojo with Liferay in a scalable way
